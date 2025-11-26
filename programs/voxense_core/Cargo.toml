@@ -1,0 +1,11 @@
+[package]
+name = "voxense-core"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "voxense_core"
+crate-type = ["cdylib", "lib"]
+
+[dependencies]
+anchor-lang = "0.30.1"
